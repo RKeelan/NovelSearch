@@ -1,0 +1,30 @@
+[project]
+name = "NovelSearch"
+version = "0.1"
+description = "Search for novels"
+readme = "README.md"
+authors = [{name = "R.Keelan"}]
+license = {text = "Apache-2.0"}
+requires-python = ">=3.8"
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "click"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/RKeelan/NovelSearch"
+Changelog = "https://github.com/RKeelan/NovelSearch/releases"
+Issues = "https://github.com/RKeelan/NovelSearch/issues"
+CI = "https://github.com/RKeelan/NovelSearch/actions"
+
+[project.scripts]
+NovelSearch = "NovelSearch.cli:cli"
+
+[project.optional-dependencies]
+test = ["pytest"]
