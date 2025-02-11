@@ -10,7 +10,10 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License"
 ]
 dependencies = [
-    "click"
+    "bs4",
+    "click",
+    "lxml",
+    "requests"
 ]
 
 [build-system]
