@@ -1,7 +1,5 @@
 # NovelSearch
 
-[![PyPI](https://img.shields.io/pypi/v/NovelSearch.svg)](https://pypi.org/project/NovelSearch/)
-[![Changelog](https://img.shields.io/github/v/release/RKeelan/NovelSearch?include_prereleases&label=changelog)](https://github.com/RKeelan/NovelSearch/releases)
 [![Tests](https://github.com/RKeelan/NovelSearch/actions/workflows/test.yml/badge.svg)](https://github.com/RKeelan/NovelSearch/actions/workflows/test.yml)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/RKeelan/NovelSearch/blob/master/LICENSE)
 
