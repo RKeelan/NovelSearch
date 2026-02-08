@@ -156,7 +156,7 @@ def merge_award_entries(novels: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
             novel_map[key] = existing
 
     # Convert back to list
-    novel_map.values())
+    return list(novel_map.values())
 
 @click.group()
 @click.version_option()
